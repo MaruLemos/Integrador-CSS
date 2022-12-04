@@ -143,3 +143,85 @@ footer{
     color: azure;
     text-decoration:underline;
 }
+@media (max-width: 992px){
+    .formulario button{
+        width: 50%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:auto;
+        padding: 30px;
+        gap: 20px;
+    }
+    .redes{
+
+        width:auto;
+        
+    }
+    .redes h2{
+        font-size: 18px;
+        color: azure;
+        font-weight: 400;
+    }
+    .redes img{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+    .store{
+        display: flex;
+        width: auto;
+        gap: 10px;
+    }
+    .store img{
+        width: auto;
+        border-radius: 5px;
+        border: solid 1px black;
+    }
+    .terminos{
+        display: flex;
+        width: auto;
+        font-size: 13px;
+        font-weight: 500;
+        color: azure;
+      
+    }
+    .terminos a{
+        color: azure;
+        text-decoration:underline;
+    }
+}
+@media (max-width: 576px){
+   .formulario{
+        width: 100%;
+    }
+    .formulario h2{
+        width: 100%;
+    }
+    .formulario input{
+        width: 100%;
+
+    }
+    .formulario button{
+        width: 80%;
+
+    }
+    .foto{
+        display: none;
+    }
+    .redes h2{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
